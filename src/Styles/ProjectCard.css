@@ -1,0 +1,12 @@
+
+.project-card{
+    padding: 50px;
+    margin: 1%;
+    background-color: green;
+    background-size: cover;
+    width: 29%;
+    box-shadow: 0 0 40px lighten(#000, 60%);
+    height: 300px;
+}
+
+

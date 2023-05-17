@@ -1,0 +1,30 @@
+.navbar-container {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 50px 0 50px;
+
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.menu a {
+    font-size: 1.7em;
+    margin: 15px;
+    text-decoration: none;
+    color: rgba(108, 109, 111, 255);
+}
+
+.menu a:hover {
+    color: rgba(226, 182, 101, 255);
+}
+
+.logo {
+    max-height: 100px;
+}
