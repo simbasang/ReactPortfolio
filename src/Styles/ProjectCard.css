@@ -1,12 +1,52 @@
 
 .project-card{
-    padding: 50px;
     margin: 1%;
-    background-color: green;
     background-size: cover;
-    width: 29%;
+    min-width: 500px;
     box-shadow: 0 0 40px lighten(#000, 60%);
-    height: 300px;
+    height: 500px;
+    /*new*/
+  perspective: 1000px;
 }
 
+
+.title {
+  text-align: center;
+}
+
+.project-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.project-card:hover .project-card-inner {
+  transform: rotateY(180deg);
+}
+
+.project-card-front, .flip-card-back {
+  box-shadow: 0 8px 14px 0 rgba(0,0,0,0.2);
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.project-card-front {
+  background-size: cover;
+}
+
+.flip-card-back {
+  /* background: linear-gradient(135deg,rgb(210, 172, 91) 5%, rgb(255, 206, 114) 100%) ; */
+  box-shadow: 0 8px 14px 0 rgba(226, 182, 101, 255);
+  color: white;
+  transform: rotateY(180deg);
+}
 

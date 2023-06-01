@@ -9,14 +9,19 @@ interface Props {
 function ProjectCard(props: Props) {
 	return (
 		<>
-			<div
-				className="center column project-card"
-				style={{
-					backgroundImage: "url(" + props.url + ")",
-				}}>
-				<h2>{props.name}</h2>
-				<p>{props.description}</p>
-				<button className="filled-button"> See more</button>
+			<div className="project-card">
+				<div className="project-card-inner">
+					<div
+						className="project-card-front flip-card-front"
+						style={{
+							backgroundImage: "url(" + props.url + ")",
+						}}>
+						<h2 className="title">{props.name}</h2>
+					</div>
+					<div className="flip-card-back background-color-2">
+						<p>{props.description}</p>
+					</div>
+				</div>
 			</div>
 		</>
 	);

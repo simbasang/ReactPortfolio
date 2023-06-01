@@ -2,17 +2,18 @@
 not working so its in the main app.css
 */
 .skill-card {
-    /* background-color: rgba(61,62,66,255) ; */
-    height: 270px ;
-    width: 270px ;
-    margin: 1% ;
-    border-radius: 15% ;
-    box-shadow: 5px 5px 10px 5px rgba(226, 182, 101, 255);
-    padding: 30px ;
+  /* background-color: rgba(61,62,66,255) ; */
+  height: 270px;
+  width: 270px;
+  margin: 1%;
+  border-radius: 15%;
+  box-shadow: 0 8px 14px 0 rgba(0, 0, 0, 0.2);
+  /* box-shadow: 5px 5px 10px 5px rgba(226, 182, 101, 255); */
+  padding: 30px;
 }
 
-.card-logo{
-    height: 140px;
-    width: 144px;
-    padding-bottom: 20px;
-} 
+.card-logo {
+  height: 140px;
+  width: 144px;
+  padding-bottom: 20px;
+}
