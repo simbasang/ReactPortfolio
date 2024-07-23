@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Noto+Sans:wght@300&family=Nunito:ital,wght@1,300&family=Playfair+Display:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Noto+Sans:wght@300&family=Nunito:ital,wght@1,300&family=Playfair+Display:wght@500&display=swap");
 /*
 font-family: 'Montserrat', sans-serif;
 font-family: 'Noto Sans', sans-serif;
@@ -8,64 +8,61 @@ font-family: 'Playfair Display', serif;
 */
 
 body {
-    
-    font-family: 'Playfair Display', serif;
-    color: whitesmoke;
-    background-color: rgba(49, 51, 59, 255);
+  font-family: "Playfair Display", serif;
+  color: whitesmoke;
+  background-color: rgba(49, 51, 59, 255);
 }
-.background-color-2{
-    background-color: rgba(52, 53, 58, 255)
+.background-color-2 {
+  background-color: rgba(52, 53, 58, 255);
 }
-.headline{
-    font-size: 50px;
-    margin-bottom: 20px;
+.headline {
+  font-size: 50px;
+  margin-bottom: 20px;
 }
 
 .container {
-    padding-top: 80px;
-    padding-bottom: 80px;
-    display: flex;
-    flex-flow: column;
-    justify-content: flex-start;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
 }
 
-.filled-button{
-    background-color: rgba(226, 182, 101, 255);
-    color: rgba(49, 51, 59, 255);
-    border-radius: 10px;
-    padding: 3px 22px 3px 22px;
-    border: none;
-    text-align: center;
+.filled-button {
+  background-color: rgba(226, 182, 101, 255);
+  color: rgba(49, 51, 59, 255);
+  border-radius: 10px;
+  padding: 3px 22px 3px 22px;
+  border: none;
+  text-align: center;
 }
 
 .inner-container {
-    padding-top: 30px;
-    display: flex;
-    align-items: baseline;
+  padding-top: 30px;
+  display: flex;
+  align-items: baseline;
 }
 
 .center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.column
-{
-    flex-flow: column;
+.column {
+  flex-flow: column;
 }
 
-.flex-row{
-    width: 100%;
-    display: inline-flex;
-    
+.flex-row {
+  width: 100%;
+  display: inline-flex;
 }
-.wrap{
-    flex-wrap: wrap;
+.wrap {
+  flex-wrap: wrap;
 }
 
 /* skillcard cant move it to file stop working*/
- /* .card {
+/* .card {
     background-color: rgba(61,62,66,255) ;
     height: 270px ;
     width: 270px ;
@@ -79,5 +76,3 @@ body {
     width: 144px;
     padding-bottom: 20px;
 }  */
-  
-

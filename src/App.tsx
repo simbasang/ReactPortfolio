@@ -5,6 +5,7 @@ import Portfolio from "./components/Portfolio";
 import Timeline from "./components/Timeline";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import ContactMe from "./components/ContactMe";
 
 function App() {
 	return (
@@ -15,6 +16,7 @@ function App() {
 			<Skills />
 			<Portfolio />
 			<Timeline />
+			<ContactMe />
 			<Footer />
 		</div>
 	);
