@@ -1,0 +1,26 @@
+.media-bar-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  width: 100px;
+  margin-right: 20px;
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10; /* Ensure it layers over the rest of the banner */
+}
+
+.social-media-icon {
+  width: 60px;
+  height: 60px;
+  padding: 5px;
+}
+
+.media-line {
+  background-color: rgba(226, 182, 101, 255);
+  height: 150px;
+  width: 3px;
+  margin-bottom: 15px;
+}

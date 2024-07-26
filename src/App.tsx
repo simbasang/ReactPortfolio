@@ -8,18 +8,18 @@ import Footer from "./components/Footer";
 import ContactMe from "./components/ContactMe";
 
 function App() {
-	return (
-		<div>
-			<Navbar />
-			<Banner />
-			<About />
-			<Skills />
-			<Portfolio />
-			<Timeline />
-			<ContactMe />
-			<Footer />
-		</div>
-	);
+  return (
+    <div>
+      <Navbar />
+      <Banner />
+      <About />
+      <Skills />
+      <Portfolio />
+      <Timeline />
+      <ContactMe />
+      <Footer />
+    </div>
+  );
 }
 
 export default App;
