@@ -10,6 +10,11 @@ font-family: 'Nunito', sans-serif;
 font-family: 'Playfair Display', serif;
 
 */
+.outlined-text {
+  color: transparent;
+  -webkit-text-stroke: 1px whitesmoke; /* White outline */
+  margin-bottom: 40px;
+}
 body {
   font-family: "Playfair Display", serif;
   color: whitesmoke;
@@ -29,6 +34,7 @@ body {
   display: flex;
   flex-flow: column;
   justify-content: flex-start;
+  width: 100%;
 }
 
 .filled-button {

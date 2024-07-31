@@ -9,28 +9,28 @@ import cssLogo from "../assets/icons8-css3.svg";
 import dbLogo from "../assets/database-db-icon.svg";
 
 function SkillCard() {
-	let skills = [
-		{ url: dotnetLogo, text: ".NET" },
-		{ url: gitLogo, text: "Git" },
-		{ url: htmlLogo, text: "Html" },
-		{ url: cssLogo, text: "Css" },
-		{ url: postgresqlLogo, text: "Postgres" },
-		{ url: dbLogo, text: "Sql" },
-		{ url: javascriptLogo, text: "Javascript" },
-		{ url: csharpLogo, text: "c#" },
-	];
+  let skills = [
+    { url: dotnetLogo, text: ".NET" },
+    { url: gitLogo, text: "Git" },
+    { url: htmlLogo, text: "Html" },
+    { url: cssLogo, text: "Css" },
+    { url: postgresqlLogo, text: "Postgres" },
+    { url: dbLogo, text: "Sql" },
+    { url: javascriptLogo, text: "Javascript" },
+    { url: csharpLogo, text: "c#" },
+  ];
 
-	let cards = skills.map(skill => (
-		<div className="center column skill-card background-color-2">
-			<img className="card-logo" src={skill.url} alt="" />
-			<p>{skill.text}</p>
-		</div>
-	));
-	return (
-		<>
-			<div className="flex-row center wrap">{cards}</div>
-		</>
-	);
+  let cards = skills.map((skill) => (
+    <div className="center column skill-card ">
+      <img className="card-logo" src={skill.url} alt="" />
+      <p>{skill.text}</p>
+    </div>
+  ));
+  return (
+    <>
+      <div className="flex-row center wrap">{cards}</div>
+    </>
+  );
 }
 
 export default SkillCard;

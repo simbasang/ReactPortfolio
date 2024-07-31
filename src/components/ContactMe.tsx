@@ -4,7 +4,7 @@ function ContactMe() {
   return (
     <>
       <div className="contact-top-container">
-        <h1 className="outlined-text">Contact Me</h1>
+        <h1 className="outlined-text contact-me-heder">Contact Me</h1>
 
         <div className="contact-container">
           <div className="contact-info">

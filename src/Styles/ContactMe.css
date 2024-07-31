@@ -1,5 +1,4 @@
 .contact-top-container {
-  background-color: #1c1c1c;
   color: #fff;
   font-family: Arial, sans-serif;
   display: flex;
@@ -22,13 +21,9 @@
   margin-right: 20px;
 }
 
-.outlined-text {
+.contact-me-heder {
   font-size: 100px;
-  color: transparent;
-  -webkit-text-stroke: 1px #fff; /* White outline */
-  margin-bottom: 40px;
 }
-
 .label {
   color: #d3a66b; /* Soft orange color */
 }
@@ -46,22 +41,26 @@
 
 .contact-form input,
 .contact-form textarea {
-  background-color: #2c2c2c;
+  background-color: rgba(52, 53, 58, 255);
+  box-shadow: 0 4px 10px 0 rgba(226, 182, 101, 255);
   border: none;
   margin-bottom: 15px;
   padding: 15px;
   color: #fff;
   border-radius: 5px;
 }
-
+.contact-form textarea {
+  height: 200px;
+}
 .contact-form button {
-  background-color: #d3a66b; /* Soft orange color */
-  border: none;
   padding: 15px;
-  color: #fff;
-  border-radius: 5px;
   cursor: pointer;
-  transition: background-color 0.3s;
+  background-color: rgba(52, 53, 58, 255);
+  color: rgba(226, 182, 101, 255);
+  border: 2px solid rgba(226, 182, 101, 255);
+  border-radius: 10px;
+  width: 200px;
+  align-self: center;
 }
 
 .contact-form button:hover {

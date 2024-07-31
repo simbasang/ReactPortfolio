@@ -1,0 +1,12 @@
+.skills-container {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  width: 100%;
+  height: 600px;
+}
+.skills-inner-container {
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  width: 70%;
+}
