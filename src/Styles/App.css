@@ -10,6 +10,16 @@ font-family: 'Nunito', sans-serif;
 font-family: 'Playfair Display', serif;
 
 */
+.top {
+  position: absolute;
+  top: -40px;
+  left: 200px;
+}
+
+.overflow-container {
+  position: relative;
+}
+
 .outlined-text {
   color: transparent;
   -webkit-text-stroke: 1px whitesmoke; /* White outline */
@@ -26,6 +36,10 @@ body {
 .headline {
   font-size: 50px;
   margin-bottom: 20px;
+  text-decoration: underline;
+  text-decoration-color: rgba(226, 182, 101, 255);
+  text-decoration-thickness: 3px;
+  text-underline-offset: 10px;
 }
 
 .container {

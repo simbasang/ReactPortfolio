@@ -4,7 +4,7 @@ import "../Styles/Timeline.css";
 function Timeline() {
   return (
     <>
-      <div className="relative background-color-2">
+      <div className="background-color-2">
         <div className="overflow-container">
           <h1 className="headline top ">Experience</h1>
         </div>

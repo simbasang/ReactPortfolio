@@ -3,9 +3,10 @@ import "../Styles/ContactMe.css";
 function ContactMe() {
   return (
     <>
+      <div className="overflow-container">
+        <h1 className="headline top ">Contact me</h1>
+      </div>
       <div className="contact-top-container">
-        <h1 className="outlined-text contact-me-heder">Contact Me</h1>
-
         <div className="contact-container">
           <div className="contact-info">
             <p>
