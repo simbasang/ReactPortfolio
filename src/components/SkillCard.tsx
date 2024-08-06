@@ -21,14 +21,14 @@ function SkillCard() {
   ];
 
   let cards = skills.map((skill) => (
-    <div className="center column skill-card ">
+    <div className="center skill-card ">
       <img className="card-logo" src={skill.url} alt="" />
       <p>{skill.text}</p>
     </div>
   ));
   return (
     <>
-      <div className="flex-row center wrap">{cards}</div>
+      <div className="center wrap">{cards}</div>
     </>
   );
 }

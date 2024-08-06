@@ -5,7 +5,7 @@ import MediaBar from "./MediaBar";
 function Banner() {
   return (
     <>
-      <div className="banner-container  ">
+      <div className="banner-container ">
         <div className="banner-text ">
           <h1>
             I'm <span className="highlight-bold"> SEBASTIAN</span>

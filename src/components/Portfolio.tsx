@@ -39,11 +39,11 @@ function Portfolio() {
 
   return (
     <>
-      <div className="overflow-container">
-        <h1 className="headline top ">Portfolio</h1>
+      <div className="container">
+        <h1 className="headline ">Portfolio</h1>
       </div>
-      <div className="container center ">
-        <div className="flex-row center">{projectCards}</div>
+      <div className=" portfolio-container center ">
+        <div className="center">{projectCards}</div>
 
         <button className="filled-button portfolio-button"> view more </button>
       </div>

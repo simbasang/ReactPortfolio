@@ -1,30 +1,29 @@
 .navbar-container {
-    height: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 30px 50px 0 50px;
-
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 30px 50px 0 50px;
 }
 
 .menu {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.menu a {
-    font-size: 1.7em;
-    margin: 15px;
-    text-decoration: none;
-    color: rgba(108, 109, 111, 255);
+.menu .nav-link {
+  font-size: 1.7em;
+  margin: 15px;
+  text-decoration: none;
+  color: var(--main-white);
+  cursor: pointer;
 }
 
-.menu a:hover {
-    color: rgba(226, 182, 101, 255);
+.menu .nav-link:hover {
+  color: var(--main-yellow);
 }
 
 .logo {
-    max-height: 100px;
+  max-height: 100px;
 }

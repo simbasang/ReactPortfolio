@@ -10,11 +10,42 @@ font-family: 'Nunito', sans-serif;
 font-family: 'Playfair Display', serif;
 
 */
-.top {
+:root {
+  --main-darker-gray: #242423;
+  --main-lighter-gray: #333533;
+  /* --main-lighter-yellow: #f5cb5c; */
+  --main-yellow: #e2b665ff;
+  --main-white: #f5f5f5;
+  --main-sand: #e8eddf;
+  --main-lightgreen: #cfdbd5;
+}
+
+body {
+  font-family: "Playfair Display", serif;
+  color: whitesmoke;
+  background-color: var(--main-darker-gray);
+}
+.background-color-2 {
+  background-color: var(--main-lighter-gray);
+}
+.headline {
+  font-size: 50px;
+  margin-bottom: 20px;
+  text-decoration: underline;
+  text-decoration-color: var(--main-yellow);
+  text-decoration-thickness: 3px;
+  text-underline-offset: 10px;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* .top {
   position: absolute;
   top: -40px;
   left: 200px;
-}
+} 
 
 .overflow-container {
   position: relative;
@@ -22,25 +53,10 @@ font-family: 'Playfair Display', serif;
 
 .outlined-text {
   color: transparent;
-  -webkit-text-stroke: 1px whitesmoke; /* White outline */
+  -webkit-text-stroke: 1px #f5f5f5;
   margin-bottom: 40px;
 }
-body {
-  font-family: "Playfair Display", serif;
-  color: whitesmoke;
-  background-color: rgba(49, 51, 59, 255);
-}
-.background-color-2 {
-  background-color: rgba(52, 53, 58, 255);
-}
-.headline {
-  font-size: 50px;
-  margin-bottom: 20px;
-  text-decoration: underline;
-  text-decoration-color: rgba(226, 182, 101, 255);
-  text-decoration-thickness: 3px;
-  text-underline-offset: 10px;
-}
+
 
 .container {
   padding-top: 80px;
@@ -60,30 +76,7 @@ body {
   text-align: center;
 }
 
-.inner-container {
-  padding-top: 30px;
-  display: flex;
-  align-items: baseline;
-}
-
-.center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.column {
-  flex-flow: column;
-}
-
-.flex-row {
-  width: 100%;
-  display: inline-flex;
-}
-.wrap {
-  flex-wrap: wrap;
-}
-
+*/
 /* skillcard cant move it to file stop working*/
 /* .card {
     background-color: rgba(61,62,66,255) ;

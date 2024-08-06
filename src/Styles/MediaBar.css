@@ -19,7 +19,7 @@
 }
 
 .media-line {
-  background-color: rgba(226, 182, 101, 255);
+  background-color: var(--main-yellow);
   height: 150px;
   width: 3px;
   margin-bottom: 15px;

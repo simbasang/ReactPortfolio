@@ -12,11 +12,21 @@ function App() {
     <div>
       <Navbar />
       <Banner />
-      <About />
-      <Skills />
-      <Portfolio />
-      <Timeline />
-      <ContactMe />
+      <div id="about">
+        <About />
+      </div>
+      <div id="skills">
+        <Skills />
+      </div>
+      <div id="portfolio">
+        <Portfolio />
+      </div>
+      <div id="experience">
+        <Timeline />
+      </div>
+      <div id="contact">
+        <ContactMe />
+      </div>
       <Footer />
     </div>
   );
