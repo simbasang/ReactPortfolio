@@ -1,29 +1,31 @@
 import "../Styles/SkillCard.css";
-import dotnetLogo from "../assets/dotnet.svg";
-import gitLogo from "../assets/icons8-git-144.svg";
-import csharpLogo from "../assets/icons8-c-sharp-logo-144.svg";
-import javascriptLogo from "../assets/icons8-javascript.svg";
-import htmlLogo from "../assets/icons8-html-5.svg";
-import postgresqlLogo from "../assets/icons8-postgresql.svg";
-import cssLogo from "../assets/icons8-css3.svg";
-import dbLogo from "../assets/database-db-icon.svg";
+import dotnetLogo from "../assets/skills/netcore.png";
+import csharp from "../assets/skills/c-sharp.png";
+import git from "../assets/skills/git.png";
+import sql from "../assets/skills/sql.png";
+import postgress from "../assets/skills/postgre.png";
+import javascript from "../assets/skills/js.png";
+import typescript from "../assets/skills/typescript.png";
+import nextjs from "../assets/skills/nextjs.png";
+import react from "../assets/skills/react.png";
 
 function SkillCard() {
   let skills = [
     { url: dotnetLogo, text: ".NET" },
-    { url: gitLogo, text: "Git" },
-    { url: htmlLogo, text: "Html" },
-    { url: cssLogo, text: "Css" },
-    { url: postgresqlLogo, text: "Postgres" },
-    { url: dbLogo, text: "Sql" },
-    { url: javascriptLogo, text: "Javascript" },
-    { url: csharpLogo, text: "c#" },
+    { url: git, text: "Git" },
+    { url: csharp, text: "c#" },
+    { url: postgress, text: "Postgres" },
+    { url: sql, text: "Sql" },
+    { url: javascript, text: "Javascript" },
+    { url: typescript, text: "Typescript" },
+    { url: nextjs, text: "NextJS" },
+    { url: react, text: "React" },
   ];
 
   let cards = skills.map((skill) => (
     <div className="center skill-card ">
       <img className="card-logo" src={skill.url} alt="" />
-      <p>{skill.text}</p>
+      <h4>{skill.text}</h4>
     </div>
   ));
   return (

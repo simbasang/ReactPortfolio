@@ -6,9 +6,7 @@ function Skills() {
     <>
       <div className="container">
         <h1 className="headline">My skills</h1>
-        <div className="skills-container center ">
-          <SkillCard />
-        </div>
+        <SkillCard />
       </div>
     </>
   );

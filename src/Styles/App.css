@@ -10,6 +10,7 @@ font-family: 'Nunito', sans-serif;
 font-family: 'Playfair Display', serif;
 
 */
+
 :root {
   --main-darker-gray: #242423;
   --main-lighter-gray: #333533;
@@ -21,20 +22,22 @@ font-family: 'Playfair Display', serif;
 }
 
 body {
-  font-family: "Playfair Display", serif;
-  color: whitesmoke;
+  font-family: "Montserrat", sans-serif;
+
+  /* font-family: "Nunito", sans-serif; */
+  color: var(--main-white);
   background-color: var(--main-darker-gray);
-}
-.background-color-2 {
-  background-color: var(--main-lighter-gray);
 }
 .headline {
   font-size: 50px;
   margin-bottom: 20px;
+  margin-top: 70px;
   text-decoration: underline;
   text-decoration-color: var(--main-yellow);
   text-decoration-thickness: 3px;
   text-underline-offset: 10px;
+  /* font-family: "Montserrat", sans-serif; */
+  font-family: "Playfair Display", serif;
 }
 .center {
   display: flex;

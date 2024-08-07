@@ -2,17 +2,14 @@
 not working so its in the main app.css
 */
 .skill-card {
-  height: 120px;
-  width: 100px;
+  height: 150px;
+  width: 150px;
   flex-flow: column;
+  margin: 20px;
 }
 
 .card-logo {
-  height: 70px;
-  width: 70px;
-  padding-top: 10px;
-  padding-bottom: 5px;
-}
-.wrap {
-  flex-wrap: wrap;
+  height: 100px;
+  width: 100px;
+  padding: 15px;
 }

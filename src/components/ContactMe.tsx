@@ -3,7 +3,7 @@ import "../Styles/ContactMe.css";
 function ContactMe() {
   return (
     <>
-      <div className="background-color-2">
+      <div className="light-gray">
         <div className="container">
           <h1 className="headline">Contact me</h1>
           <div className="contact-container">
