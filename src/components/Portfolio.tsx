@@ -39,13 +39,14 @@ function Portfolio() {
 
   return (
     <>
-      <div className="container">
-        <h1 className="headline ">Portfolio</h1>
-      </div>
-      <div className=" portfolio-container center ">
-        <div className="center">{projectCards}</div>
-
-        <button className="filled-button portfolio-button"> view more </button>
+      <div className="background-color-2">
+        <div className="container">
+          <h1 className="headline ">Portfolio</h1>
+        </div>
+        <div className=" portfolio-container center ">
+          <div className="center">{projectCards}</div>
+          <button className="main-button portfolio-button"> view more </button>
+        </div>
       </div>
     </>
   );

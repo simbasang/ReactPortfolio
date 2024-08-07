@@ -41,40 +41,22 @@ body {
   justify-content: center;
   align-items: center;
 }
-/* .top {
-  position: absolute;
-  top: -40px;
-  left: 200px;
-} 
 
-.overflow-container {
-  position: relative;
-}
-
-.outlined-text {
-  color: transparent;
-  -webkit-text-stroke: 1px #f5f5f5;
-  margin-bottom: 40px;
-}
-
-
-.container {
-  padding-top: 80px;
-  padding-bottom: 80px;
-  display: flex;
-  flex-flow: column;
-  justify-content: flex-start;
-  width: 100%;
-}
-
-.filled-button {
-  background-color: rgba(226, 182, 101, 255);
-  color: rgba(49, 51, 59, 255);
+.main-button {
+  background-color: var(--main-lighter-gray);
+  color: var(--main-yellow);
+  border: 2px solid var(--main-yellow);
   border-radius: 10px;
-  padding: 3px 22px 3px 22px;
-  border: none;
   text-align: center;
+  font-size: 20px;
+  width: 175px;
+  height: 55px;
+  margin-top: 25px;
 }
+
+/*
+
+
 
 */
 /* skillcard cant move it to file stop working*/

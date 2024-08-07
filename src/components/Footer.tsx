@@ -9,7 +9,7 @@ import {
 function Footer() {
   return (
     <>
-      <footer>
+      <footer className="background-color-2">
         <div className="footer-container">
           <a
             href="https://www.linkedin.com/in/sebastian-englund-b73955194/"

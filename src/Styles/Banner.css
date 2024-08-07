@@ -20,7 +20,7 @@
   font-size: 100px;
 }
 
-.contact-button {
+/* .contact-button {
   background-color: var(--main-lighter-gray);
   color: var(--main-yellow);
   border: 2px solid var(--main-yellow);
@@ -30,7 +30,7 @@
   width: 175px;
   height: 55px;
   margin-top: 25px;
-}
+} */
 
 .highlight-bold {
   color: var(--main-yellow);

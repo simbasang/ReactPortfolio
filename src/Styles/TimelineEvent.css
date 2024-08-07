@@ -1,73 +1,69 @@
-
 .timeline-top-container {
-    display: flex;
-    flex-flow: column;
-    justify-content: flex-start;
+  display: flex;
+  justify-content: flex-start;
+  min-height: 400px;
 }
 
-.timeline-year-container{
-height: 100px;
-width: 100px;
-display: flex;
-justify-content: center;
-align-items: center;
+.timeline-year-container {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.year-pointer{
-    text-align: center;
-    background-color: transparent;
-    height: 30px;
-    width: 70px;
-    font-size: 0px; line-height: 0%; width: 0px;
-    border-top: 15px solid transparent;
-    border-bottom: 15px solid transparent;
-    border-left: 15px solid rgba(92,93,96,255);
-    
+.year-pointer {
+  text-align: center;
+  background-color: transparent;
+  height: 30px;
+  width: 70px;
+  font-size: 0px;
+  line-height: 0%;
+  width: 0px;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 15px solid var(--main-lighter-gray);
 }
-.year{
-    text-align: center;
-    background-color: rgba(92,93,96,255);
-    height: 30px;
-    width: 70px;
-}
-
-
-
-.timeline-text{
-    padding-top: 30px;
-    width: 80%;
-    display: flex;
-    flex-flow: column;
+.year {
+  text-align: center;
+  background-color: var(--main-lighter-gray);
+  height: 30px;
+  width: 70px;
 }
 
-.timeline-container
-{
-    display: flex;
-    flex-flow: column;
-    justify-content: start ;
-    align-items:center;
-    margin: 0px 20px 0px 20px;
-
+.timeline-text {
+  padding-top: 30px;
+  width: 80%;
+  display: flex;
+  flex-flow: column;
 }
-.dot-container{
-    width: 100px;
-    height: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 
+.dot-line-container {
+  display: flex;
+  align-items: flex-start;
+  flex-flow: column;
+  justify-content: start;
+  align-items: center;
+}
+.dot-container {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .dot {
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
-    background-color: rgba(226, 182, 101, 255);
-    box-shadow: 0 0 10px 5px rgba(226, 182, 101, 255);}
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  background-color: var(--main-yellow);
+  box-shadow: 0 0 10px 5px var(--main-yellow);
+}
 
-    .verticle-line{
-    height: 75%;
-    width: 3px;
-    background-color: rgba(108,109,111,255);
-    margin-top: 10px;
+.verticle-line {
+  height: 75%;
+  width: 3px;
+  background-color: var(--main-lighter-gray);
+  margin-top: 10px;
 }

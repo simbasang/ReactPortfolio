@@ -1,14 +1,13 @@
-.portfolio-button
-{
-    height: 70px;
-    width: 250px;
-    margin: 50px 0 50px 0;
-    font-size: 30px;
+.portfolio-button {
+  height: 70px;
+  width: 250px;
+  margin: 50px 0 50px 0;
+  font-size: 30px;
 }
 
-.portfolio-container{
-    width: 100%;
-    display: flex;
-    flex-flow: column;
-    justify-content: flex-start;
+.portfolio-container {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
 }

@@ -1,27 +1,23 @@
 import TimelineEvent from "./TimelineEvent";
-import "../Styles/Timeline.css";
 
 function Timeline() {
   return (
     <>
-      <div className="background-color-2">
-        <div className="overflow-container">
-          <h1 className="headline top ">Experience</h1>
-        </div>
+      <div className=" container ">
+        <h1 className="headline  ">Experience</h1>
 
-        <div className="container center column ">
-          <TimelineEvent
-            year="2015"
-            title="testa"
-            underTitle="oslo"
-            text="bla bla bla"
-          />
+        <TimelineEvent
+          year="2015"
+          title="testa"
+          underTitle="oslo"
+          text="bla bla bla"
+        />
 
-          <TimelineEvent
-            year="2015"
-            title="testa"
-            underTitle="oslo"
-            text="
+        <TimelineEvent
+          year="2015"
+          title="testa"
+          underTitle="oslo"
+          text="
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
 						in luctus nunc. Integer lobortis ante sit amet felis elementum, nec
 						sollicitudin felis consequat. Duis odio quam, scelerisque id lacus
@@ -55,12 +51,12 @@ function Timeline() {
 						Vivamus quis ullamcorper turpis. Suspendisse auctor iaculis aliquet.
 						Aenean et quam varius, aliquet mi non, faucibus ipsum. Nulla
 						facilisi. Fusce ac nibh non eros consectetur tempus."
-          />
-          <TimelineEvent
-            year="2015"
-            title="testa"
-            underTitle="oslo"
-            text="
+        />
+        <TimelineEvent
+          year="2015"
+          title="testa"
+          underTitle="oslo"
+          text="
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
 						in luctus nunc. Integer lobortis ante sit amet felis elementum, nec
 						sollicitudin felis consequat. Duis odio quam, scelerisque id lacus
@@ -94,8 +90,7 @@ function Timeline() {
 						Vivamus quis ullamcorper turpis. Suspendisse auctor iaculis aliquet.
 						Aenean et quam varius, aliquet mi non, faucibus ipsum. Nulla
 						facilisi. Fusce ac nibh non eros consectetur tempus."
-          />
-        </div>
+        />
       </div>
     </>
   );

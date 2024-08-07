@@ -15,7 +15,7 @@ function TimelineEvent(props: Props) {
           <div className="year">{props.year}</div>
           <div className="year-pointer"></div>
         </div>
-        <div className="timeline-container ">
+        <div className="dot-line-container ">
           <div className="dot-container">
             <div className="dot"></div>
           </div>
