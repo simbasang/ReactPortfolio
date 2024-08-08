@@ -34,7 +34,7 @@ function MediaBar() {
           />
         </a>
         <a
-          href="https://www.facebook.com/sebastian.l.englund/"
+          href="https://www.facebook.com/profile.php?id=61564167504236"
           target="_blank"
           rel="noopener noreferrer"
         >

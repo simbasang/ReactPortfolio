@@ -1,6 +1,29 @@
 import "../Styles/ContactMe.css";
+import { useRef } from "react";
+import emailjs from "@emailjs/browser";
+import toast from "react-hot-toast";
 
 function ContactMe() {
+  const form = useRef<HTMLFormElement>(null);
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm("service_5hdivlp", "template_tptp13o", form.current!, {
+        publicKey: "ehhIO_sKrkkM6deEs",
+      })
+      .then(
+        () => {
+          toast.success("Successfully sent!");
+          form.current!.reset();
+        },
+        (error) => {
+          toast.error("somthing went wrong pleas try again");
+        }
+      );
+  };
+
   return (
     <>
       <div className="light-gray">
@@ -20,12 +43,16 @@ function ContactMe() {
               </p>
             </div>
             <div className="contact-form">
-              <form>
-                <input type="text" name="name" placeholder="Name"></input>
-                <input type="email" name="email" placeholder="Email"></input>
+              <form ref={form} onSubmit={sendEmail}>
+                <input type="text" name="user_name" placeholder="Name"></input>
+                <input
+                  type="email"
+                  name="user_email"
+                  placeholder="Email"
+                ></input>
                 <input type="text" name="subject" placeholder="Subject"></input>
                 <textarea name="message" placeholder="Message"></textarea>
-                <button className="main-button" type="submit">
+                <button className="main-button" value="Send" type="submit">
                   Send Message
                 </button>
               </form>

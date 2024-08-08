@@ -1,7 +1,7 @@
 .timeline-top-container {
   display: flex;
   justify-content: flex-start;
-  min-height: 400px;
+  min-height: 250px;
 }
 
 .timeline-year-container {
@@ -62,7 +62,7 @@
 }
 
 .verticle-line {
-  height: 75%;
+  height: 70%;
   width: 3px;
   background-color: var(--main-lighter-gray);
   margin-top: 10px;

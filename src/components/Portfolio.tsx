@@ -2,6 +2,7 @@ import ProjectCard from "./ProjectCard";
 import discordPicture from "../assets/project-pictures/p1.jpg";
 import scraperPicture from "../assets/project-pictures/p2.jpg";
 import dndApiPicture from "../assets/project-pictures/p3.jpg";
+import adventOfCodePicture from "../assets/project-pictures/p4.jpg";
 import "../Styles/Portfolio.css";
 function Portfolio() {
   let projects = [
@@ -22,10 +23,9 @@ function Portfolio() {
         "This is a Dnd inspired rpg api that have a discordbot for making calls to it.",
     },
     {
-      url: dndApiPicture,
-      name: "DND API",
-      description:
-        "This is a Dnd inspired rpg api that have a discordbot for making calls to it.",
+      url: adventOfCodePicture,
+      name: "Advent of code",
+      description: "One programing problem each day for december.",
     },
   ];
 
@@ -36,6 +36,9 @@ function Portfolio() {
       description={project.description}
     />
   ));
+  const handleButtonClick = () => {
+    window.open("https://github.com/simbasang", "_blank");
+  };
 
   return (
     <>
@@ -45,7 +48,12 @@ function Portfolio() {
         </div>
         <div className=" portfolio-container center ">
           <div className="center">{projectCards}</div>
-          <button className="main-button portfolio-button"> view more </button>
+          <button
+            className="main-button portfolio-button"
+            onClick={handleButtonClick}
+          >
+            view more
+          </button>
         </div>
       </div>
     </>
