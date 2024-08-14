@@ -56,3 +56,12 @@ body {
   height: 55px;
   margin-top: 25px;
 }
+
+@media (max-width: 425px) {
+}
+
+@media (max-width: 1400px) {
+}
+
+@media (max-width: 770px) {
+}

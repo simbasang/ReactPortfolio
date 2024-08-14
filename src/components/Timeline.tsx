@@ -10,36 +10,43 @@ function Timeline() {
           year="2024"
           title="Software developer"
           underTitle="Recopart"
-          text="Here at Recopart, we have a big system for demolishing cars. 
-          We use all kinds of tech stacks from old ASP.NET to modern Next.js and more. We try to be as modern as possible, using Azure and Docker."
+          text="At Recopart, I am involved in developing a large-scale system for vehicle demolition, 
+          working with diverse technology stacks ranging from legacy ASP.NET to modern frameworks like Next.js. 
+          In addition to my development role, I serve as the Scrum Master for our team, 
+          facilitating agile practices and ensuring smooth and efficient project delivery.
+           My focus is on leveraging the latest in cloud and containerization technologies, 
+           including Azure and Docker, to drive continuous improvement in our development processes."
         />
         <TimelineEvent
           year="2023"
           title="Software developer"
           underTitle="Consid"
-          text="Here I did a lot of courses, both in programming and Azure, but also in leadership and project management."
+          text="During my time at Consid, I broadened my expertise through various courses, enhancing my skills in programming, Azure/Kubernetes,
+           as well as soft skills such as leadership and effective Scrum practices. 
+          I further honed my leadership abilities and project management skills, taking on a more strategic role in project execution and beginning my role as a Scrum Master."
         />
         <TimelineEvent
           year="2021"
           title="Software developer"
           underTitle="Knowe"
-          text="When I went from intern to hired, I started to have responsibilities of my own customers and projects.
-           I did everything from Vue websites to C# APIs and also worked a lot with the integration platform iCore."
+          text="Transitioning from an internship to a full-time position at Knowe, I took on significant responsibilities, managing client projects from conception to deployment.
+           My work ranged from developing Vue.js websites to building and integrating C# APIs. Later on, I delved deeper and learned a lot more about integrations and integration platforms when I started using iCore."
         />
 
         <TimelineEvent
           year="2020"
           title="Internship"
           underTitle="Knowe"
-          text="Knowe is a consulting company that specializes in .NET and integrations, in integration platforms such as BizTalk and iCore. During my internship here, I did a lot. 
-          I helped build a solution for a bigger car parts company to manage their warehouse and builds.
+          text="As an intern at Knowe, a consultancy specializing in .NET and system integrations, I contributed to key projects, 
+          including the development of a solution for a major car parts company. This role allowed me to gain a deeper understanding of .NET and also provided hands-on experience with platforms like BizTalk and iCore.
 		  "
         />
         <TimelineEvent
           year="2019"
           title="Started studying"
           underTitle="Fullstack development in .NET"
-          text="I studied everything from API-building/architecture, Azure DevOps, CI/CD, frontend development in Vue and React."
+          text="I embarked on my journey into software development with comprehensive studies in fullstack development. 
+          My education covered essential areas such as API architecture, Azure DevOps, CI/CD pipelines, and frontend development using Vue.js and React."
         />
       </div>
     </>

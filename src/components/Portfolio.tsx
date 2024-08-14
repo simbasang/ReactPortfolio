@@ -22,11 +22,11 @@ function Portfolio() {
       description:
         "This is a Dnd inspired rpg api that have a discordbot for making calls to it.",
     },
-    {
-      url: adventOfCodePicture,
-      name: "Advent of code",
-      description: "One programing problem each day for december.",
-    },
+    // {
+    //   url: adventOfCodePicture,
+    //   name: "Advent of code",
+    //   description: "One programing problem each day for december.",
+    // },
   ];
 
   let projectCards = projects.map((project) => (
@@ -42,12 +42,10 @@ function Portfolio() {
 
   return (
     <>
-      <div className="background-color-2">
-        <div className="container">
-          <h1 className="headline ">Portfolio</h1>
-        </div>
-        <div className=" portfolio-container center ">
-          <div className="center">{projectCards}</div>
+      <div className="container">
+        <h1 className="headline ">Portfolio</h1>
+        <div className=" portfolio-container center">
+          <div className=" container wrap">{projectCards}</div>
           <button
             className="main-button portfolio-button"
             onClick={handleButtonClick}

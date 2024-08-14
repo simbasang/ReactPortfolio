@@ -2,14 +2,26 @@
   height: 100px;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
   padding: 30px 50px 0 50px;
+  position: relative;
 }
 
 .menu {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.menu.open {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 100px;
+  left: 0;
+  right: 0;
+  background-color: var(--main-lighter-gray);
+  padding: 20px;
+  z-index: 10, 00;
 }
 
 .menu .nav-link {
@@ -26,4 +38,38 @@
 
 .logo {
   max-height: 100px;
+}
+
+.hamburger {
+  font-size: 28px;
+  background: none;
+  color: white;
+  border: none;
+  cursor: pointer;
+  display: none; /* Initially hidden for larger screens */
+}
+
+/* Responsive Design */
+@media (max-width: 770px) {
+  .hamburger {
+    display: block; /* Show the hamburger menu on smaller screens */
+  }
+
+  .menu {
+    display: none; /* Hide the menu by default on smaller screens */
+  }
+
+  .menu.open {
+    display: flex; /* Show the menu when open on smaller screens */
+  }
+  .navbar-container {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding: 0px 15px 0px 0px;
+    justify-content: space-between;
+  }
+  .menu.open .nav-link:hover {
+    color: var(--main-yellow);
+  }
 }

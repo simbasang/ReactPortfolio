@@ -11,3 +11,10 @@
   flex-flow: column;
   justify-content: flex-start;
 }
+
+.wrap {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  align-items: center;
+}

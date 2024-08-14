@@ -12,31 +12,17 @@ function About() {
               <h3>Hi there! I'm Sebastian,</h3>
               <br />
               <p className="text">
-                There are a few minor corrections needed. Here is the corrected
-                text: Hi there! I'm Sebastian, I'm a passionate Fullstack
-                Developer with a knack for problem-solving and a love for C#.
-                Whether it's front-end finesse or back-end brilliance, I've got
-                you covered. My journey in tech has been driven by a simple
-                philosophy: listen closely, communicate clearly, and deliver
-                beyond expectations.
-                <br />
-                <br />
-                I pride myself on being not just a developer but also a partner
-                to my clients. I believe that the best solutions come from truly
-                understanding what you want and working together closely to make
-                it happen. As a Scrum Master, I'm all about smooth processes and
-                collaborative teamwork, ensuring that every project runs like a
-                well-oiled machine.
-                <br />
-                <br />
-                Seeing my clients' faces light up when they see the final
-                product is what fuels my passion. There's nothing quite like the
-                thrill of solving a complex problem and knowing that it makes a
-                real difference. I'm here to turn your ideas into reality, with
-                a personal touch and professional expertise. When I'm not
-                coding, you'll find me diving into new tech trends, honing my
-                skills, and planning my next big project. Let's connect and
-                create something amazing together!
+                I am a dedicated and innovative System Developer with a passion
+                for creating efficient and scalable solutions. With a solid
+                background in software development, system architecture, and
+                problem-solving, I specialize in designing and implementing
+                robust systems that meet both business needs and technical
+                requirements. My commitment to continuous learning and staying
+                up-to-date with the latest industry trends ensures that I
+                deliver high-quality, future-proof solutions. I thrive in
+                collaborative environments and am driven by the challenge of
+                transforming complex problems into streamlined, effective
+                systems.
               </p>
             </div>
           </div>

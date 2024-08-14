@@ -13,3 +13,23 @@ not working so its in the main app.css
   width: 100px;
   padding: 15px;
 }
+
+.wrap {
+  display: flex;
+  flex-flow: wrap;
+}
+
+@media (max-width: 425px) {
+  .skill-card {
+    height: 70px;
+    width: 70px;
+    flex-flow: column;
+    margin: 2px;
+  }
+
+  .card-logo {
+    height: 50px;
+    width: 50px;
+    padding: 15px;
+  }
+}
