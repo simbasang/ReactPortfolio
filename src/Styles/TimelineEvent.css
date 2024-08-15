@@ -11,7 +11,9 @@
   justify-content: center;
   align-items: center;
 }
-
+.mobile {
+  display: none;
+}
 .year-pointer {
   text-align: center;
   background-color: transparent;
@@ -29,13 +31,6 @@
   background-color: var(--main-lighter-gray);
   height: 30px;
   width: 70px;
-}
-
-.timeline-text {
-  padding-top: 30px;
-  width: 80%;
-  display: flex;
-  flex-flow: column;
 }
 
 .dot-line-container {
@@ -66,4 +61,34 @@
   width: 3px;
   background-color: var(--main-lighter-gray);
   margin-top: 10px;
+}
+.mobile-line-text {
+  display: flex;
+  flex-flow: row;
+}
+.timeline-text {
+  padding-top: 30px;
+  width: 80%;
+  display: flex;
+  flex-flow: column;
+}
+@media (max-width: 425px) {
+  .mobile {
+    display: contents;
+  }
+  .timeline-top-container {
+    min-height: auto;
+  }
+  .timeline-text {
+    padding-top: 0;
+  }
+  .verticle-line {
+    height: auto;
+    width: 3px;
+    background-color: var(--main-lighter-gray);
+    margin: 0 10px;
+  }
+  .origin {
+    display: none;
+  }
 }

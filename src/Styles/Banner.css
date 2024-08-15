@@ -104,4 +104,9 @@
   .banner-top-conmtainer {
     display: flex;
   }
+  .banner-text h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
