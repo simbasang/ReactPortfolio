@@ -24,12 +24,20 @@ not working so its in the main app.css
     height: 70px;
     width: 70px;
     flex-flow: column;
-    margin: 2px;
+    margin: 15px;
   }
 
   .card-logo {
     height: 50px;
     width: 50px;
     padding: 15px;
+  }
+  .wrap {
+    width: 70%;
+  }
+  .skill-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }

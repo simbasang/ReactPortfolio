@@ -1,16 +1,8 @@
 .media-bar-container {
   display: flex;
   align-items: center;
-  /* justify-content: center; */
   flex-flow: column;
-  /* width: 100px; */
-  /* margin-right: 20px; */
-  /* position: absolute; */
-  /* right: 15px; */
-  /* top: 50%; */
-  /* transform: translateY(-50%); */
-  /* z-index: 10; Ensure it layers over the rest of the banner */
-  margin-left: 200px;
+  margin-left: 150px;
 }
 
 .social-media-icon {
@@ -28,5 +20,17 @@
 @media (max-width: 425px) {
   .media-bar-container {
     margin-left: 20px;
+  }
+}
+
+@media (max-width: 1500px) {
+  .media-bar-container {
+    display: none;
+  }
+}
+
+@media (max-width: 1700px) {
+  .media-bar-container {
+    margin-left: 50px;
   }
 }

@@ -2,31 +2,27 @@ import ProjectCard from "./ProjectCard";
 import discordPicture from "../assets/project-pictures/p1.jpg";
 import scraperPicture from "../assets/project-pictures/p2.jpg";
 import dndApiPicture from "../assets/project-pictures/p3.jpg";
-import adventOfCodePicture from "../assets/project-pictures/p4.jpg";
 import "../Styles/Portfolio.css";
 function Portfolio() {
   let projects = [
     {
       url: discordPicture,
       name: "DiscordBot",
-      description: "A cool discord bot making quiz and serv funny pictures.",
+      description:
+        "A Discord bot made for having fun with your friends. It features quizzes, serves funny pictures, and includes a timer for AFK.",
     },
     {
       url: scraperPicture,
       name: "Webscraper",
-      description: "A webscraper for getting recepies from koket.se.",
+      description:
+        "A web scraper for getting recipes from a famous recipe website.",
     },
     {
       url: dndApiPicture,
       name: "DND API",
       description:
-        "This is a Dnd inspired rpg api that have a discordbot for making calls to it.",
+        "A fun API for the roleplaying night. It helps you build your character, roll dice, and much more.",
     },
-    // {
-    //   url: adventOfCodePicture,
-    //   name: "Advent of code",
-    //   description: "One programing problem each day for december.",
-    // },
   ];
 
   let projectCards = projects.map((project) => (

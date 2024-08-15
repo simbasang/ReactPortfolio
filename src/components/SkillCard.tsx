@@ -17,9 +17,9 @@ function SkillCard() {
     { url: postgress, text: "Postgres" },
     { url: sql, text: "Sql" },
     { url: javascript, text: "Javascript" },
-    { url: typescript, text: "Typescript" },
     { url: nextjs, text: "NextJS" },
     { url: react, text: "React" },
+    { url: typescript, text: "Typescript" },
   ];
 
   let cards = skills.map((skill) => (
@@ -30,7 +30,9 @@ function SkillCard() {
   ));
   return (
     <>
-      <div className="center wrap">{cards}</div>
+      <div className="skill-container">
+        <div className="center wrap">{cards}</div>
+      </div>
     </>
   );
 }
