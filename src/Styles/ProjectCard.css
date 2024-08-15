@@ -4,13 +4,11 @@
   min-width: 300px;
   box-shadow: 0 0 40px lighten(#000, 60%);
   height: 300px;
-  /*new*/
   perspective: 1000px;
 }
 
 .title {
   text-align: center;
-  transition-delay: 0.1s;
 }
 
 .project-card-inner {
@@ -25,11 +23,7 @@
 .project-card:hover .project-card-inner {
   transform: rotateY(180deg);
 }
-.project-card:hover .title {
-  opacity: 0;
-  visibility: hidden;
-  transition-delay: 0.2s;
-}
+
 .project-card-front,
 .flip-card-back {
   box-shadow: 0 8px 14px 0 rgba(0, 0, 0, 0.2);

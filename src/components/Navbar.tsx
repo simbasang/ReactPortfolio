@@ -1,7 +1,7 @@
 import "../Styles/Navbar.css";
 import logo from "../assets/logo.png";
 import { Link } from "react-scroll";
-import React, { useState } from "react";
+import { useState } from "react";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);

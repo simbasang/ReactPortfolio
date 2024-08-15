@@ -6,7 +6,7 @@ import toast from "react-hot-toast";
 function ContactMe() {
   const form = useRef<HTMLFormElement>(null);
 
-  const sendEmail = (e) => {
+  const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
     emailjs
@@ -20,6 +20,7 @@ function ContactMe() {
         },
         (error) => {
           toast.error("somthing went wrong pleas try again");
+          console.log(error);
         }
       );
   };
